@@ -121,7 +121,7 @@ button {
 
     body {
         background-size: 50vh 200px;
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .data {
@@ -151,7 +151,7 @@ button {
         width: 90px;
         border-radius: 50%;
         position: absolute;
-        left: 150px;
+        left: 170px;
         top: 85px;
         z-index: 2;
     }
