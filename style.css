@@ -1,0 +1,158 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(./Images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 250vh 300px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    position: relative;
+}
+
+.container {
+    background-color: rgb(250, 243, 243);
+    width: 50%;
+    height: 77%;
+    margin-left: 330px;
+    margin-top: 120px;
+    border-radius: 20px;
+    position: fixed;
+}
+
+button {
+    border-radius: 30px;
+    padding: 20px;
+    margin-left: 300px;
+    margin-top: 20px;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+    background: rgb(253, 75, 131);
+    background: linear-gradient(68deg, rgba(253, 75, 131, 1) 0%, rgba(254, 118, 122, 1) 90%);
+}
+
+.section1 {
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.image img {
+    width: 150px;
+    border-radius: 50%;
+    position: absolute;
+    left: 600px;
+    top: 40px;
+    z-index: 2;
+}
+
+.msg i,
+.connect i {
+    color: #d68324;
+}
+
+.connect,
+.msg {
+    padding: 20px;
+    cursor: pointer;
+}
+
+.personal {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.personal p {
+    margin-top: -15px;
+}
+
+.career {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.data {
+    display: flex;
+    text-align: center;
+    padding-left: 240px;
+    margin-top: 25px;
+}
+
+.sec2,
+.sec3 {
+    padding-left: 30px;
+    cursor: pointer;
+}
+
+.sec1 {
+    cursor: pointer;
+}
+
+.sec1_data,
+.sec2_data,
+.sec3_data {
+    font-weight: bold;
+    font-size: larger;
+}
+
+.sec1_title,
+.sec2_title,
+.sec3_title {
+    margin-top: -10px;
+}
+
+
+@media screen and (max-width: 700px) {
+
+    .container {
+        width: 85%;
+        height: 60%;
+        margin-left: 27px;
+        border-radius: 0%;
+    }
+
+    .connect span,
+    .msg span {
+        display: none;
+    }
+
+    body {
+        background-size: 50vh 200px;
+    }
+
+    .data {
+        padding-left: 30px;
+        font-size: large;
+    }
+
+    .sec1_data,
+    .sec2_data,
+    .sec3_data {
+        font-weight: bold;
+        font-size: large;
+    }
+
+    button{
+        padding: 10px 20px 10px 20px;
+        width: 90%;
+        margin-left: 10px;
+    }
+
+    .personal h2{
+        margin-top: -20px;
+        font-size: 20px;
+    }
+
+    .image img {
+        width: 90px;
+        border-radius: 50%;
+        position: absolute;
+        left: 130px;
+        top: 85px;
+        z-index: 2;
+    }
+
+}
