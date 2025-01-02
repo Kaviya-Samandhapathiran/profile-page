@@ -109,9 +109,9 @@ button {
 
     .container {
         width: 85%;
-        height: 60%;
+        height: 55%;
         margin-left: 27px;
-        border-radius: 0%;
+        border-radius: 5%;
     }
 
     .connect span,
@@ -125,24 +125,30 @@ button {
     }
 
     .data {
-        padding-left: 30px;
-        font-size: large;
+        padding-left: 55px;
+        font-size: 16px;
     }
 
     .sec1_data,
     .sec2_data,
     .sec3_data {
         font-weight: bold;
-        font-size: large;
+        font-size: 16px;
     }
 
-    button{
+    .sec1_title,
+    .sec2_title,
+    .sec3_title {
+        font-size: 14px;
+    }
+
+    button {
         padding: 10px 20px 10px 20px;
-        width: 90%;
-        margin-left: 10px;
+        width: 85%;
+        margin-left: 30px;
     }
 
-    .personal h2{
+    .personal h2 {
         margin-top: -20px;
         font-size: 20px;
     }
@@ -151,7 +157,7 @@ button {
         width: 90px;
         border-radius: 50%;
         position: absolute;
-        left: 170px;
+        left: 140px;
         top: 85px;
         z-index: 2;
     }
